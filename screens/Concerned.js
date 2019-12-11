@@ -76,11 +76,12 @@ export default class Concerned extends React.Component {
             <Text style={styles.headerText}>{contact.name}</Text>
           </View>
           <View style={styles.concernedDisclaimer}>
-            <Text>We encourage you to be sincere when talking to</Text>
-            <Text>someone dealing with serious emotions. But, </Text>
-            <Text>sometimes, we don't always know what to say.</Text>
-            <Text>Here are some quotes/questions/jokes if you</Text>
-            <Text>find yourself at a loss for words.</Text>
+            <Text>
+              We encourage you to be sincere when talking to someone dealing
+              with serious emotions. But, sometimes, we don't always know what
+              to say. Here are some quotes/questions/jokes if you find yourself
+              at a loss for words.
+            </Text>
           </View>
           <View style={styles.information}>
             <Text>Song Lyrics:</Text>
@@ -221,13 +222,13 @@ export default class Concerned extends React.Component {
               numberOfLines={5}
             />
             <View style={styles.buttonView}>
-            <Button
-              onPress={clearText}
-              title="Send Text"
-              raised
-              type="outline"
-              buttonStyle={styles.buttons}
-            />
+              <Button
+                onPress={clearText}
+                title="Send Text"
+                raised
+                type="outline"
+                buttonStyle={styles.buttons}
+              />
             </View>
             <View style={styles.buttonView}>
               <Button

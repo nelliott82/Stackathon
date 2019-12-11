@@ -20,17 +20,19 @@ export class VeryConcerned extends React.Component {
           <Text style={styles.headerText}>The Colombia Protocol</Text>
         </View>
         <View style={styles.concernedDisclaimer}>
-          <Text>The Colombia Protocol is a series of up to six, simple,</Text>
-          <Text>yes or no questions and can be administered by anyone.</Text>
-          <Text>It is designed to help professionals and ordinary people</Text>
-          <Text>determine who needs immediate help.</Text>
-          <Text>It is based on 20 years of scientific study and is</Text>
-          <Text>in use in 45 nations and 6 continents.</Text>
+          <Text>
+            The Colombia Protocol is a series of up to six, simple, yes or no
+            questions and can be administered by anyone. It is designed to help
+            professionals and ordinary people determine who needs immediate
+            help. It is based on 20 years of scientific study and is in use in
+            45 nations and 6 continents.
+          </Text>
         </View>
         <View style={styles.concernedDisclaimer}>
-          <Text>Do not worry about keeping track of the answers.</Text>
-          <Text>The quiz will tell you the next steps based on</Text>
-          <Text>the responses you enter.</Text>
+          <Text>
+            Do not worry about keeping track of the answers. The quiz will tell
+            you the next steps based on the responses you enter.
+          </Text>
         </View>
         <View style={styles.contactContainer}>
           <View style={styles.buttonView}>
@@ -110,10 +112,9 @@ export class QuestionOne extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.questionText}>
-            Have you ever wished you were dead
+            Have you ever wished you were dead or wished you could go to sleep
+            and not wake up?
           </Text>
-          <Text style={styles2.questionText}>or wished you could</Text>
-          <Text style={styles2.questionText}>go to sleep and not wake up?</Text>
         </View>
         <View style={styles2.responseContainer}>
           <Button
@@ -152,9 +153,8 @@ export class QuestionTwo extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.questionText}>
-            Have you actually had any thoughts
+            Have you actually had any thoughts about killing yourself?
           </Text>
-          <Text style={styles2.questionText}>about killing yourself?</Text>
         </View>
         <View style={styles2.responseContainer}>
           <Button
@@ -192,8 +192,9 @@ export class QuestionThree extends React.Component {
           <Text style={styles2.headerText}>Question 3</Text>
         </View>
         <View style={styles2.concernedDisclaimer}>
-          <Text style={styles2.questionText}>Have you thought about how</Text>
-          <Text style={styles2.questionText}>you might do this?</Text>
+          <Text style={styles2.questionText}>
+            Have you thought about how you might do this?
+          </Text>
         </View>
         <View style={styles2.responseContainer}>
           <Button
@@ -232,14 +233,9 @@ export class QuestionFour extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.questionText}>
-            Have you had any intention of acting
-          </Text>
-          <Text style={styles2.questionText}>on these thoughts of killing</Text>
-          <Text style={styles2.questionText}>
-            yourself, as opposed to you have the thoughts
-          </Text>
-          <Text style={styles2.questionText}>
-            but you definitely would not act on them?
+            Have you had any intention of acting on these thoughts of killing
+            yourself, as opposed to you have the thoughts but you definitely
+            would not act on them?
           </Text>
         </View>
         <View style={styles2.responseContainer}>
@@ -279,15 +275,9 @@ export class QuestionFive extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.questionText}>
-            Have you started to work out or
+            Have you started to work out or worked out the details of how to
+            kill yourself? Do you intend to carry out this plan?
           </Text>
-          <Text style={styles2.questionText}>
-            worked out the details of how
-          </Text>
-          <Text style={styles2.questionText}>
-            to kill yourself? Do you intend
-          </Text>
-          <Text style={styles2.questionText}>to carry out this plan?</Text>
         </View>
         <View style={styles2.responseContainer}>
           <Button
@@ -325,10 +315,10 @@ export class QuestionSix extends React.Component {
           <Text style={styles2.headerText}>Question 6</Text>
         </View>
         <View style={styles2.concernedDisclaimer}>
-          <Text style={styles2.questionText}>Have you done anything,</Text>
-          <Text style={styles2.questionText}>started to do anything,</Text>
-          <Text style={styles2.questionText}>or prepared to do anything</Text>
-          <Text style={styles2.questionText}>to end your life?</Text>
+          <Text style={styles2.questionText}>
+            Have you done anything, started to do anything, or prepared to do
+            anything to end your life?
+          </Text>
         </View>
         <View style={styles2.responseContainer}>
           <Button
@@ -398,14 +388,9 @@ export class HighRisk extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.highRiskText}>
-            The responses to these questions
+            The responses to these questions indicate the respondent is in
+            IMMEDIATE need of help. Escort them to Emergency Personnel for care.
           </Text>
-          <Text style={styles2.highRiskText}>
-            indicate the respondent is in
-          </Text>
-          <Text style={styles2.highRiskText}>IMMEDIATE need of help.</Text>
-          <Text style={styles2.highRiskText}>Escort them to Emergency</Text>
-          <Text style={styles2.highRiskText}>Personnel for care.</Text>
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Button
@@ -414,9 +399,9 @@ export class HighRisk extends React.Component {
             raised
             type="outline"
             buttonStyle={{
-                backgroundColor: '#b0e0e6',
-                width: 250,
-                height: 50,
+              backgroundColor: '#b0e0e6',
+              width: 250,
+              height: 50,
             }}
           />
           <Text style={styles2.highRiskText}>OR</Text>
@@ -437,16 +422,10 @@ export class HighRisk extends React.Component {
           />
         </View>
         <View style={styles2.concernedDisclaimer}>
-          <Text style={styles2.highRiskText}>If you are with them, DO NOT</Text>
           <Text style={styles2.highRiskText}>
-            leave their side until help arrives.
-          </Text>
-          <Text style={styles2.highRiskText}>If you are not with them,</Text>
-          <Text style={styles2.highRiskText}>
-            contact someone who is, or nearby,
-          </Text>
-          <Text style={styles2.highRiskText}>
-            and inform them of the situation.
+            If you are with them, DO NOT leave their side until help arrives. If
+            you are not with them, contact someone who is, or nearby, and inform
+            them of the situation.
           </Text>
         </View>
       </ImageBackground>
@@ -470,24 +449,11 @@ export class LowerRisk extends React.Component {
         </View>
         <View style={styles2.concernedDisclaimer}>
           <Text style={styles2.questionText}>
-            Although the respondent's answers
-          </Text>
-          <Text style={styles2.questionText}>to these questions do not indicate an</Text>
-          <Text style={styles2.questionText}>
-            immediate need for help at this time,
-          </Text>
-          <Text style={styles2.questionText}>
-            any responses of "Yes" would indicate
-          </Text>
-          <Text style={styles2.questionText}>the need for further care.</Text>
-          <Text style={styles2.questionText}>
-            You can assist them by helping
-          </Text>
-          <Text style={styles2.questionText}>
-            them find and visit a trusted mental health
-          </Text>
-          <Text style={styles2.questionText}>
-            provider and/or establishing a safety plan.
+            Although the respondent's answers to these questions do not indicate
+            an immediate need for help at this time, any responses of "Yes"
+            would indicate the need for further care. You can assist them by
+            helping them find and visit a trusted mental health provider and/or
+            establishing a safety plan.
           </Text>
         </View>
       </ImageBackground>

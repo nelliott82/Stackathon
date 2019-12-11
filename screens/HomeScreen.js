@@ -1,5 +1,4 @@
 /* eslint-disable react/no-multi-comp */
-import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
 import {
   FlatList,
@@ -23,7 +22,7 @@ export default class HomeScreen extends React.Component {
           name: 'Jane Doe',
           phoneNumber: '1234567890',
           goodStuff: [
-            'Went to California recently',
+            'Went to California recently',``
             'Dad was featured by POW group',
           ],
           badStuff: ['Planning German Christmas Market', 'Job search'],
@@ -32,7 +31,7 @@ export default class HomeScreen extends React.Component {
         },
         {
           name: 'Jasmine Wang',
-          phoneNumber: '',
+          phoneNumber: '8582052151',
           goodStuff: [
             'Made a great app',
             'Passed Junior Phase',
