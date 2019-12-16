@@ -22,7 +22,7 @@ export default class HomeScreen extends React.Component {
           name: 'Jane Doe',
           phoneNumber: '1234567890',
           goodStuff: [
-            'Went to California recently',``
+            'Went to California recently',
             'Dad was featured by POW group',
           ],
           badStuff: ['Planning German Christmas Market', 'Job search'],
