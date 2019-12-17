@@ -9,7 +9,7 @@ import {
   View,
   ImageBackground,
   TextInput,
-} from 'react-native'
+} from 'react-native';
 import { Button } from 'react-native-elements';
 import Header from './Header';
 
