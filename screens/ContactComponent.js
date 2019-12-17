@@ -45,7 +45,7 @@ export default class ContactComponent extends React.Component {
         this.setState({ text: '' });
         const isAvailable = await SMS.isAvailableAsync();
         if (isAvailable) {
-          // do your SMS stuff here
+          // Send the SMS message
           const { result } = await SMS.sendSMSAsync(
             [contact.phoneNumber],
             message
